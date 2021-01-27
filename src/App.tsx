@@ -22,6 +22,7 @@ import PrivateRoute from 'utils/PrivateRoute';
 import Joke from 'routes/Joke';
 import Home from 'routes/Home';
 import Landing from 'routes/Landing';
+import JokeFc from 'routes/JokeFc';
 interface Props {}
 interface State {}
 class App extends Component<Props, State> {
@@ -37,6 +38,11 @@ class App extends Component<Props, State> {
                         exact
                         path={Config.path.joke}
                         component={Joke}
+                    />
+                    <PrivateRoute
+                        exact
+                        path={Config.path.jokeFc}
+                        component={JokeFc}
                     />
                     <PrivateRoute
                         exact

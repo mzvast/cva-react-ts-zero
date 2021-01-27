@@ -50,6 +50,9 @@ class Landing extends Component<Props, State> {
                 <li>
                     <Link to={Config.path.joke}>Joke</Link>
                 </li>
+                <li>
+                    <Link to={Config.path.jokeFc}>JokeFc</Link>
+                </li>
             </Box>
         );
     }

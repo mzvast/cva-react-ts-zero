@@ -23,6 +23,7 @@ export default {
     path: {
         root: '/',
         home: '/home',
-        joke: '/joke'
+        joke: '/joke',
+        jokeFc: '/jokeFc'
     }
 };
