@@ -37,3 +37,8 @@ const render = (Component) => {
 };
 
 render(App);
+
+// https://github.com/vitejs/vite/issues/1747
+if (import.meta.hot) {
+    import.meta.hot.accept();
+}
