@@ -13,8 +13,7 @@ const getEnv = () => {
     }
     if (
         window.location.host.includes('vrapi-internal') ||
-        window.location.host.includes('baidu-int') ||
-        process.env.REACT_APP_IS_DEBUG === 'true'
+        window.location.host.includes('baidu-int')
     ) {
         return 'test';
     }

@@ -7,7 +7,7 @@
 /* eslint-disable max-len,operator-linebreak,space-before-function-paren */
 // https://github.com/rematch/rematch/blob/master/docs/recipes/typescript.md
 
-import {init, RematchRootState} from '@rematch/core';
+import {init, RematchDispatch, RematchRootState} from '@rematch/core';
 import * as models from './models';
 
 export const store = init({
