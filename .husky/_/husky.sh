@@ -1,8 +1,5 @@
 #!/bin/sh
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
 if [ -z "$husky_skip_init" ]; then
   debug () {
     [ "$HUSKY_DEBUG" = "1" ] && echo "husky (debug) - $1"
