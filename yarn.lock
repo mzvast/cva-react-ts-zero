@@ -561,6 +561,11 @@
   resolved "http://registry.npm.baidu-int.com/@ecomfe%2feslint-config/-/eslint-config-7.1.0.tgz#f7b5288a714c85653e7513c5c31d48c09063d284"
   integrity sha1-97UoinFMhWU+dRPFwx1IwJBj0oQ=
 
+"@ecomfe/stylelint-config@^1.1.1":
+  version "1.1.1"
+  resolved "http://registry.npm.baidu-int.com/@ecomfe%2fstylelint-config/-/stylelint-config-1.1.1.tgz#acdc270173b9751bfb29976fa12a83bc1986e3b7"
+  integrity sha1-rNwnAXO5dRv7KZdvoSqDvBmG47c=
+
 "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
   resolved "http://registry.npm.baidu-int.com/@emotion%2fis-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
